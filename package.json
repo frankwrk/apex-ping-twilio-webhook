@@ -1,0 +1,16 @@
+{
+  "name": "apex-ping-twilio-webhook",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Tim Neutkens",
+  "license": "MIT",
+  "dependencies": {
+    "basic-auth": "^1.1.0",
+    "micro": "^6.1.0",
+    "twilio": "3.0.0-rc.13"
+  },
+  "scripts": {
+    "dev": "nodemon --exec 'micro'",
+    "start": "micro"
+  }
+}
