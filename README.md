@@ -29,3 +29,15 @@ AUTH_PASSWORD=test
 ### Deploy to now.sh
 
 Run `now` with the `-e` option to define above environment variables
+
+1. `npm install -g now` or `yarn global add now`
+2. Run the command below. Make sure you edit the environment variables.
+```bash
+now -e PHONENUMBERS='+1234567890,+19876543210' \
+    -e TWILIO_SID='abcdefg' \
+    -e TWILIO_AUTHTOKEN='abcdef' \
+    -e TWILIO_PHONENUMBER='+1234567890' \
+    -e AUTH_LOGIN='test' \
+    -e AUTH_PASSWORD='test' \
+    timneutkens/apex-ping-twilio-webhook
+```
