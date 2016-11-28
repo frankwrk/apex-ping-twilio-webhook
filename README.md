@@ -2,6 +2,8 @@
 
 Send sms alerts based on an [Apex Ping](https://apex.sh/ping/) alert rule.
 
+Based on [Apex Ping webhooks specification](https://apex.sh/ping/help/guides/webhooks)
+
 ```
 # Phonenumber(s) to alert (comma seperated)
 PHONENUMBERS='+1234567890,+19876543210'
